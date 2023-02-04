@@ -1,0 +1,153 @@
+:root {
+  --primary-brand-iris: #4d5ae5;
+  --pressed-state: #404bbf;
+  --primary-navy-blue: #2e2f42;
+  --secondary-slate: #434455;
+  --secondary-cornflower: #e7e9fc;
+  --cloud: #f4f4fd;
+  --white: #fff;
+}
+
+/* font-family: 'Raleway',sans-serif; */
+/* font-family: 'Roboto',sans-serif; */
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--secondary-slate);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+}
+/* brand logo */
+.navig-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.34;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--primary-navy-blue);
+}
+.navig-logo-item {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.34;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--primary-navy-blue);
+  color: var(--primary-brand-iris);
+}
+/* navigation action */
+.navig-link {
+  font-weight: 500;
+  color: var(--primary-navy-blue);
+  text-decoration: none;
+}
+.navig-link:hover,
+.navig-link:active {
+  color: var(--pressed-state);
+}
+
+.navig-adress-link {
+  text-decoration: none;
+  color: var(--secondary-slate);
+}
+.navig-adress-link:hover,
+.navig-adress-link:active {
+  color: var(--pressed-state);
+}
+/* hero title  */
+.hero {
+  background-color: var(--primary-navy-blue);
+}
+
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.08;
+  color: Var(--white);
+}
+/* booton */
+.hero-title-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: var(--primary-brand-iris);
+}
+.hero-title-btn:hover,
+.hero-title-btn:active {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: var(--pressed-state);
+}
+/* oll Title h3,Portfolio  h2 */
+.subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--primary-navy-blue);
+}
+/* oll title h2 */
+.section-titles {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  color: var(--primary-navy-blue);
+}
+/* none dot in ul */
+.section-team-list,
+.section-titles-foto,
+.description-list,
+.navig-adress,
+.navig-link-list,
+.portfolip-btn-list,
+.portfolip-btn-list-item {
+  list-style-type: none;
+}
+/* footer */
+.footer-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.16;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--primary-navy-blue);
+}
+
+.footer-logo-item {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.16;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--primary-navy-blue);
+  color: var(--primary-brand-iris);
+}
+.footer-text {
+  color: var(--secondary-cornflower);
+}
+/* Portfolio btn carusel */
+
+.portfolip-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: var(--cloud);
+  color: var(--primary-brand-iris);
+  border: 1px solid var(--secondary-cornflower);
+  border-radius: 4px;
+}
+/* Portfolio btn carusel action  */
+.portfolip-btn:hover,
+.portfolip-btn:active {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: var(--pressed-state);
+  color: var(--white);
+  border: 1px solid var(--pressed-state);
+  border-radius: 4px;
+}
