@@ -165,4 +165,6 @@ body {
 
 .portfolip-btn-list a {
   text-decoration: none;
+}.portfolip-btn-list p {
+  color:var(--secondary-slate)
 }
