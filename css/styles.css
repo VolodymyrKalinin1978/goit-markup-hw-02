@@ -8,14 +8,11 @@
   --white: #fff;
 }
 
-
 /* font-family: 'Roboto',sans-serif; */
 body {
   font-family: "Roboto", sans-serif;
   color: var(--secondary-slate);
-  /* font-weight: 400; */
   font-size: 16px;
-  line-height: 1.5;
 }
 /* brand logo */
 /* font-family: 'Raleway',sans-serif; */
@@ -35,7 +32,6 @@ body {
   line-height: 1.34;
   text-transform: uppercase;
   text-decoration: none;
-  color: var(--primary-navy-blue);
   color: var(--primary-brand-iris);
 }
 /* navigation action */
@@ -48,13 +44,20 @@ body {
 .navig-link:active {
   color: var(--pressed-state);
 }
+.studio-nav,
+.portfolio-nav {
+  font-weight: 500;
+  color: var(--primary-brand-iris);
+  text-decoration: none;
+}
 
 .navig-adress-link {
+  font-style: normal;
   text-decoration: none;
   color: var(--secondary-slate);
 }
 .navig-adress-link:hover,
-.navig-adress-link:focus {
+.navig-adress-link:active {
   color: var(--pressed-state);
 }
 /* hero title  */
@@ -73,15 +76,15 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  cursor: pointer;
   background-color: var(--primary-brand-iris);
+  color: var(--white);
+  border-radius: 4px;
 }
 .hero-title-btn:hover,
 .hero-title-btn:active {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  cursor: pointer;
   background-color: var(--pressed-state);
+  border-radius: 4px;
 }
 /* oll Title h3,Portfolio  h2 */
 .subtitle {
@@ -98,16 +101,13 @@ body {
   color: var(--primary-navy-blue);
 }
 /* none dot in ul */
-.section-team-list,
-.section-titles-foto,
-.description-list,
-.navig-adress,
-.navig-link-list,
-.portfolip-btn-list,
-.portfolip-btn-list-item {
+.dot-none {
   list-style-type: none;
 }
 /* footer */
+.footer-main {
+  background-color: var(--primary-navy-blue);
+}
 .footer-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -115,7 +115,7 @@ body {
   line-height: 1.16;
   text-transform: uppercase;
   text-decoration: none;
-  color: var(--primary-navy-blue);
+  color: var(--cloud);
 }
 
 .footer-logo-item {
@@ -125,7 +125,6 @@ body {
   line-height: 1.16;
   text-transform: uppercase;
   text-decoration: none;
-  color: var(--primary-navy-blue);
   color: var(--primary-brand-iris);
 }
 .footer-text {
@@ -141,16 +140,29 @@ body {
   color: var(--primary-brand-iris);
   border: 1px solid var(--secondary-cornflower);
   border-radius: 4px;
+  cursor: pointer; 
 }
 /* Portfolio btn carusel action  */
 .portfolip-btn:hover,
 .portfolip-btn:active {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
   background-color: var(--pressed-state);
   color: var(--white);
   border: 1px solid var(--pressed-state);
   border-radius: 4px;
-  cursor: pointer;
+}
+.btn-all {
+  background-color: var(--pressed-state);
+  color: var(--white);
+  border: 1px solid var(--pressed-state);
+  border-radius: 4px;
+}
+.section-team {
+  background-color: var(--cloud);
+}
+.section-team-list-card {
+  background-color: var(--white);
+}
+
+.portfolip-btn-list a {
+  text-decoration: none;
 }
